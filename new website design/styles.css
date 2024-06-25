@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(223, 245, 220);
+    height: 50%;
+    
+}
+.background{
+    background-color: rgb(54, 238, 29);
+    width: 50%;
+    height: 50%;
+   
+
+ 
+}
+.image{
+   height: 50%;
+ 
+    display:flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+
+        
+}
+.image img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+
+
+#dipesh {
+
+    text-shadow: #ffff;
+     font-size: larger;
+    text-transform: capitalize;
+     word-spacing: 20px;
+   text-align: center;
+     
+ }
+
+ #dipesh a:hover{
+     opacity: 0.5;
+     background: transparent;
+     cursor: pointer;
+     box-shadow: 2px 3px lawngreen;
+     background-color: beige;
+     
+ }
+ #dipesh a{
+     text-decoration: none;
+     color:black;
+     transition: 1.0s;
+     background-color: 0.3s;
+     
+     
+ }
+ .search-wrapper{
+ margin-top:-60px;
+     display: flex;
+     float: right;
+ 
+ 
+ 
+ }
+ .search-container{
+     height: 100px;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+ 
+ }
+  .dp{
+ position: relative;
+  }
+ .box{
+     position: relative;
+     height:20px;
+     display: flex;
+     transition: 1.0s;
+     background:#ffff;
+     border-radius: 50px;
+
+     
+     cursor: pointer;
+     align-items: center;
+     padding:  8px 20px 10px;
+ }
+ .box:hover input{
+     width: 300px;
+ }
+ .box input{
+ 
+     width: 50px;;
+     border: none;
+     outline:none;
+     background: transparent;
+     transition: 1.0s;
+ }
+ .box .fa{
+     color: rgb(255, 127, 127);
+     font-weight: 20px;
+     transition: 0.5s;
+ }
+ .luna{
+     margin-left: 50px;
+     margin-top: 130px;
+     text-transform: capitalize;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .luna h3 span{
+     color:rgb(238, 158, 144);
+ }
+ .luna span{
+     color:maroon;
+    
+ }
+ .luna a{
+     padding: 10px 18px ;
+     background:black;
+     border-radius:20px;
+     color: rgb(255, 0, 0);
+     display: inline-block;
+     margin: 26px ;
+     transition: 0.5s ease;    
+ }
+ .luna a:hover{
+     background-color: aqua;
+ }
+ 
+
+ #form{
+    margin: 120px auto;
+    padding:50px;
+     background-color: orangered;
+     width: 25%;
+     border-radius: 15px;
+     box-shadow:10px 10px 5px rgb(82, 11, 77);
+ }
